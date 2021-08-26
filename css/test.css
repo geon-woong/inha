@@ -1,0 +1,276 @@
+
+@charset 'utf-8';
+@import url('notosanskr/NotoSansKR.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {}
+
+body {
+    font-family: 'Noto Sans KR';
+    font-weight: 200;
+    font-size: 16px;
+    color: #000;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+/*공통클래스*/
+.container {
+    position: relative;
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.clearfix:after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.wrap {
+    position: relative;
+    display: block;
+}
+
+/*상단배너*/
+.top-banner {
+    position: relative;
+    display: block;
+    background: #5f7486;
+
+    overflow: visible;
+}
+
+.top-banner .container {
+    height: 125px;
+}
+
+.top-banner-link {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.sw-top-banner {
+    width: 1050px;
+}
+
+.sw-top-banner-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 24px;
+    height: 37px;
+    background: url('../images/arrow_prev_1.png') no-repeat center;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.sw-top-banner-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 24px;
+    height: 37px;
+    background: url('../images/arrow_next_1.png') no-repeat center;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.sw-top-pg {}
+
+.sw-top-pg .swiper-pagination-bullet {
+    background: #97a5b0;
+    opacity: 1.0;
+    margin: 0 2px !important;
+}
+
+.sw-top-pg .swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.top-day {
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    display: block;
+    z-index: 99;
+    color: #fff;
+    font-size: 13px;
+}
+
+.top-day-label {
+    vertical-align: 2px;
+}
+
+/*상단*/
+.header {
+    position: relative;
+    display: block;
+}
+
+.header-top {
+    position: relative;
+    display: block;
+    background: #012340;
+}
+
+.header-top .container {}
+
+.member {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.member-list {
+    position: relative;
+    display: block;
+}
+
+.member-list>li {
+    position: relative;
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.member-list>li:first-child {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.member-list-link {
+    position: relative;
+    display: block;
+    padding: 0 15px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.lang-list {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: block;
+    width: 100%;
+    background: #012340;
+}
+
+.lang-list>li {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.lang-list>li:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.lang-list>li>a {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+.help {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.header-main {
+    position: relative;
+    display: block;
+    background: #fff;
+}
+
+.header-main .container {}
+
+/*슬라이드*/
+.main-slide {
+    position: relative;
+    display: block;
+}
+
+/*인하뉴스/인하인 인터뷰*/
+.news {
+    position: relative;
+    display: block;
+}
+
+/*공지사항*/
+.notice {
+    position: relative;
+    display: block;
+}
+
+/*배너 슬라이드*/
+.banner-slide {
+    position: relative;
+    display: block;
+}
+
+/*인하 일정표/행사/바로가기*/
+.info {
+    position: relative;
+    display: block;
+}
+
+/*산학협력*/
+.coop {
+    position: relative;
+    display: block;
+}
+
+/*서비스*/
+.service {
+    position: relative;
+    display: block;
+}
+
+/*SNS*/
+.sns {
+    position: relative;
+    display: block;
+}
+
+/*하단*/
+.footer {
+    position: relative;
+    display: block;
+}
